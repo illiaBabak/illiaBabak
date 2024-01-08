@@ -1,5 +1,5 @@
 <h1 align='center' color='white'>Hi there 👋</h1>
-<h3 align='center' color='white'>「 I'm Illia, a sixteen-year-old teenager from Ukraine, who is interested in programming. Now I am studying in Poland to become a programmer ✌️」</h3><br>
+<h3 align='center' color='white'>「 I'm Illia, a seventeen-year-old teenager from Ukraine, who is interested in programming. Now I am studying in Poland to become a programmer ✌️」</h3><br>
 
 ---
 <div align='center'>

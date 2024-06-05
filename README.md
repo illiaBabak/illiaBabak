@@ -46,4 +46,10 @@
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=Supabase&logoColor=white&logoWidth=10" alt=" " />
   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white&logoWidth=10" alt=" " />
   <img src="https://img.shields.io/badge/React%20Bootstrap-41E0FD?style=for-the-badge&logo=React Bootstrap&logoColor=white&logoWidth=10" alt=" " />
+
+  ---
 </div>
+
+![illiaBabak's Stats](https://github-readme-stats.vercel.app/api?username=illiaBabak&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+![illiaBabak's Streak](https://github-readme-streak-stats.herokuapp.com/?user=illiaBabak&theme=vue-dark&hide_border=true)
+![illiaBabak's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)

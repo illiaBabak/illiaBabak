@@ -11,7 +11,8 @@
     <img src="https://img.shields.io/badge/-Scss-CC6699?style=for-the-badge&logo=Sass&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=Less&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white&logoWidth=10" alt=" " />
-  </div>
+    <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwindcss&logoColor=fff&logoWidth=10" alt="Tailwind" />
+    </div>
 
   <div>
     <h4>Frontend</h4>
@@ -27,6 +28,7 @@
     <h4>Others</h4>
     <img src="https://img.shields.io/badge/Npm-CB3837?style=for-the-badge&logo=Npm&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=Yarn&logoColor=white&logoWidth=10" alt=" " />
+    <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=fff&logoWidth=10" alt="pnpm" />
     <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=Git&logoColor=white&logoWidth=10" alt=" " />
   </div>
@@ -48,8 +50,7 @@
   ---
 </div>
 
-![illiaBabak's Stats](https://github-readme-stats.vercel.app/api?username=illiaBabak&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![illiaBabak's Streak](https://github-readme-streak-stats.herokuapp.com/?user=illiaBabak&theme=vue-dark&hide_border=true)
-![illiaBabak's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+![illiaBabak's Stats](https://github-readme-stats.vercel.app/api?username=illiaBabak&theme=tokyonight&show_icons=true&hide_border=true&count_private=false)
+![illiaBabak's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
 
 

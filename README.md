@@ -26,6 +26,8 @@
 
   <div>
     <h4>Others</h4>
+   <img src="https://img.shields.io/badge/php-purple?style=for-the-badge&logo=PHP&logoColor=white&logoWidth=10" alt="php" />
+    <img src="https://img.shields.io/badge/python-1572B6?style=for-the-badge&logo=Python&logoColor=white&logoWidth=10" alt="python" />
     <img src="https://img.shields.io/badge/Npm-CB3837?style=for-the-badge&logo=Npm&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=Yarn&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=fff&logoWidth=10" alt="pnpm" />

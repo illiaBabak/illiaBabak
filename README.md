@@ -22,6 +22,7 @@
    <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white&logoWidth=10" alt=" " />
    <img src="https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white&logoWidth=10" alt=" " />
      <img src="https://img.shields.io/badge/React%20Bootstrap-41E0FD?style=for-the-badge&logo=React Bootstrap&logoColor=white&logoWidth=10" alt=" " />
+    <img src="https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=Cypress&logoColor=white&logoWidth=10" alt="Cypress" />
   </div>
 
   <div>
@@ -37,6 +38,7 @@
 
   <div>
     <h4>Databases</h4>
+    <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=Firebase&logoColor=white&logoWidth=10" alt="Firebase" />
      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=Supabase&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white&logoWidth=10" alt=" " />

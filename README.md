@@ -23,10 +23,13 @@
    <img src="https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white&logoWidth=10" alt=" " />
      <img src="https://img.shields.io/badge/React%20Bootstrap-41E0FD?style=for-the-badge&logo=React Bootstrap&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=Cypress&logoColor=white&logoWidth=10" alt="Cypress" />
+    <img src="https://img.shields.io/badge/Jest-white?style=for-the-badge&logo=Jest&logoColor=C21325" alt="Jest" />
   </div>
 
   <div>
     <h4>Others</h4>
+    <img src="https://img.shields.io/badge/Node.js-gray?style=for-the-badge&logo=Node.js&logoColor=5FA04E" alt="Node.js" />
+    <img src="https://img.shields.io/badge/express-white?style=for-the-badge&logo=express&logoColor=000000" alt="express" />
    <img src="https://img.shields.io/badge/php-purple?style=for-the-badge&logo=PHP&logoColor=white&logoWidth=10" alt="php" />
     <img src="https://img.shields.io/badge/python-1572B6?style=for-the-badge&logo=Python&logoColor=white&logoWidth=10" alt="python" />
     <img src="https://img.shields.io/badge/Npm-CB3837?style=for-the-badge&logo=Npm&logoColor=white&logoWidth=10" alt=" " />

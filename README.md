@@ -1,5 +1,5 @@
 <h1 align='center' color='white'>Hi there 👋</h1>
-<h3 align='center' color='white'>「 I'm Illia, frontend developer from Ukraine 」</h3><br>
+<h3 align='center' color='white'>「 I'm Illia, fullstack developer from Ukraine 」</h3><br>
 
 <div align='center'>
   <h1>Stack</h1>
@@ -12,6 +12,7 @@
     <img src="https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=Less&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwindcss&logoColor=fff&logoWidth=10" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/React%20Bootstrap-white?style=for-the-badge&logo=React Bootstrap&logoColor=41E0FD" alt="React Bootstrap" />
     </div>
 
   <div>
@@ -19,19 +20,22 @@
    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white&logoWidth=10" alt=" " />
    <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white&logoWidth=10" alt=" " />
    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=React&logoColor=white&logoWidth=10" alt=" " />
-   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white&logoWidth=10" alt=" " />
-   <img src="https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white&logoWidth=10" alt=" " />
-     <img src="https://img.shields.io/badge/React%20Bootstrap-41E0FD?style=for-the-badge&logo=React Bootstrap&logoColor=white&logoWidth=10" alt=" " />
-    <img src="https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=Cypress&logoColor=white&logoWidth=10" alt="Cypress" />
-    <img src="https://img.shields.io/badge/Jest-white?style=for-the-badge&logo=Jest&logoColor=C21325" alt="Jest" />
+   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white&logoWidth=10" alt=" " /><img src="https://img.shields.io/badge/React%20Query-white?style=for-the-badge&logo=React Query&logoColor=FF4154" alt="React Query" />
+
+  </div>
+
+  <div>
+    <h4>Backend</h4>
+        <img src="https://img.shields.io/badge/Node.js-gray?style=for-the-badge&logo=Node.js&logoColor=5FA04E" alt="Node.js" />
+    <img src="https://img.shields.io/badge/express-white?style=for-the-badge&logo=express&logoColor=000000" alt="express" />
+   <img src="https://img.shields.io/badge/php-purple?style=for-the-badge&logo=PHP&logoColor=white&logoWidth=10" alt="php" />
+    <img src="https://img.shields.io/badge/python-1572B6?style=for-the-badge&logo=Python&logoColor=white&logoWidth=10" alt="python" />
   </div>
 
   <div>
     <h4>Others</h4>
-    <img src="https://img.shields.io/badge/Node.js-gray?style=for-the-badge&logo=Node.js&logoColor=5FA04E" alt="Node.js" />
-    <img src="https://img.shields.io/badge/express-white?style=for-the-badge&logo=express&logoColor=000000" alt="express" />
-   <img src="https://img.shields.io/badge/php-purple?style=for-the-badge&logo=PHP&logoColor=white&logoWidth=10" alt="php" />
-    <img src="https://img.shields.io/badge/python-1572B6?style=for-the-badge&logo=Python&logoColor=white&logoWidth=10" alt="python" />
+       <img src="https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=Cypress&logoColor=white&logoWidth=10" alt="Cypress" />
+    <img src="https://img.shields.io/badge/Jest-white?style=for-the-badge&logo=Jest&logoColor=C21325" alt="Jest" />
     <img src="https://img.shields.io/badge/Npm-CB3837?style=for-the-badge&logo=Npm&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=Yarn&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=fff&logoWidth=10" alt="pnpm" />
@@ -45,6 +49,7 @@
      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=Supabase&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white&logoWidth=10" alt=" " />
+    <img src="https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=MongoDB&logoColor=47A248" alt="MongoDB" />
   </div>
  
   <div>

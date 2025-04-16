@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=Less&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white&logoWidth=10" alt=" " />
     <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwindcss&logoColor=fff&logoWidth=10" alt="Tailwind" />
-    <img src="https://img.shields.io/badge/React%20Bootstrap-white?style=for-the-badge&logo=React Bootstrap&logoColor=41E0FD" alt="React Bootstrap" />
+<img src="https://img.shields.io/badge/React%20Bootstrap-white?style=for-the-badge&logo=reactbootstrap&logoColor=41E0FD" alt="React Bootstrap" />
     </div>
 
   <div>
@@ -20,7 +20,8 @@
    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white&logoWidth=10" alt=" " />
    <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white&logoWidth=10" alt=" " />
    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=React&logoColor=white&logoWidth=10" alt=" " />
-   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white&logoWidth=10" alt=" " /><img src="https://img.shields.io/badge/React%20Query-white?style=for-the-badge&logo=React Query&logoColor=FF4154" alt="React Query" />
+   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white&logoWidth=10" alt=" " />
+   <img src="https://img.shields.io/badge/React%20Query-white?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="React Query" />
 
   </div>
 

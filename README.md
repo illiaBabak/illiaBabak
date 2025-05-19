@@ -1,5 +1,5 @@
 <h1 align='center' color='white'>Hi there 👋</h1>
-<h3 align='center' color='white'>「 I'm Illia, fullstack developer from Ukraine 」</h3><br>
+<h3 align='center' color='white'>「 I'm Illia, fullstack and mobile developer from Ukraine 」</h3><br>
 
 <div align='center'>
   <h1>Stack</h1>
@@ -35,6 +35,8 @@
 
   <div>
     <h4>Others</h4>
+    <img src="https://img.shields.io/badge/react%20native-gray?style=for-the-badge&logo=react" alt="react native" />
+    <img src="https://img.shields.io/badge/expo-white?style=for-the-badge&logo=expo&logoColor=black" alt="expo" />
        <img src="https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=Cypress&logoColor=white&logoWidth=10" alt="Cypress" />
     <img src="https://img.shields.io/badge/Jest-white?style=for-the-badge&logo=Jest&logoColor=C21325" alt="Jest" />
     <img src="https://img.shields.io/badge/Npm-CB3837?style=for-the-badge&logo=Npm&logoColor=white&logoWidth=10" alt=" " />

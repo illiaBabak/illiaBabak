@@ -19,7 +19,6 @@
 ## 🧠 Core Skills (Daily Driver)
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/React-0A0A0A?logo=react&logoColor=61DAFB&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/Next.js-0A0A0A?logo=nextdotjs&logoColor=white&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/Node.js-0A0A0A?logo=nodedotjs&logoColor=5FA04E&style=for-the-badge"/>&nbsp;
@@ -45,26 +44,15 @@
 
 ### ⚛️ Frontend
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge"/>&nbsp;
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB"/>&nbsp;
   <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=white"/>&nbsp;
   <img src="https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>&nbsp;
   <img src="https://img.shields.io/badge/TanStack%20Query-000?style=for-the-badge&logo=reactquery&logoColor=FF4154"/>&nbsp;
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>&nbsp;
 </p>
-
-### 🧰 Tooling & Code Quality
-<p>
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"/>&nbsp;
-  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=fff"/>
-</p>
-
+    
 ### 🖥️ Backend
 <p>
   <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E"/>&nbsp;
@@ -88,19 +76,24 @@
   <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
 </p>
 
-### ☁️ Hosting & Cloud
-<p>
-  <img src="https://img.shields.io/badge/Vercel-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=7B2BF9"/>&nbsp;
-  <img src="https://img.shields.io/badge/GitHub%20Actions-181717?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
-</p>
-
 ### 🧪 Testing
 <p>
   <img src="https://img.shields.io/badge/Jest-0A0A0A?style=for-the-badge&logo=jest&logoColor=C21325"/>&nbsp;
   <img src="https://img.shields.io/badge/Cypress-0A0A0A?style=for-the-badge&logo=cypress&logoColor=69D3A7"/>&nbsp;
   <img src="https://img.shields.io/badge/React%20Testing%20Library-0A0A0A?style=for-the-badge&logo=testinglibrary&logoColor=E33332"/>
 </p>
+
+### 🧰 Tooling & Code Quality
+<p>
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>&nbsp;
+  <img src="https://img.shields.io/badge/Prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"/>&nbsp;
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>&nbsp;
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>&nbsp;
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>&nbsp;
+  <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white"/>&nbsp;
+  <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=fff"/>
+</p>
+
 
 ### 🧱 Formats & Docs
 <p>

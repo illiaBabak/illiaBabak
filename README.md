@@ -19,12 +19,11 @@
 ## 🧠 Core Skills (Daily Driver)
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/React-0A0A0A?logo=react&logoColor=61DAFB&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/Next.js-0A0A0A?logo=nextdotjs&logoColor=white&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/Node.js-0A0A0A?logo=nodedotjs&logoColor=5FA04E&style=for-the-badge"/>&nbsp;
+    <img src="https://img.shields.io/badge/React%20Query-0A0A0A?logo=reactquery&logoColor=FF4154&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/Express-0A0A0A?logo=express&logoColor=white&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/React%20Query-0A0A0A?logo=reactquery&logoColor=FF4154&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white"/>
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>&nbsp;
 </p>
 
 ---

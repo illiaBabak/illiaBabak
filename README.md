@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=600&color=7DF9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=90&lines=Hi%2C+I'm+Illia+%F0%9F%91%8B;Full-stack+%26+Mobile+Developer" alt="Typing SVG" />
 </p>
-<h3 align="center">🇺🇦 → 🇵🇱 · JS/TS · React/Next · Node/Express · RN/Expo · SQL/NoSQL · Testing/CI</h3>
+<h3 align="center">JS/TS · React/Next · Node/Express · RN/Expo · SQL/NoSQL · Testing/CI</h3>
 
 <!-- Thin divider -->
 <p align="center">
@@ -19,10 +19,10 @@
 ## 🧠 Core Skills (Daily Driver)
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
+        <img src="https://img.shields.io/badge/React%20Query-0A0A0A?logo=reactquery&logoColor=FF4154&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/Next.js-0A0A0A?logo=nextdotjs&logoColor=white&style=for-the-badge"/>&nbsp;
-    <img src="https://img.shields.io/badge/React%20Query-0A0A0A?logo=reactquery&logoColor=FF4154&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/Express-0A0A0A?logo=express&logoColor=white&style=for-the-badge"/>&nbsp;
     <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Express-0A0A0A?logo=express&logoColor=white&style=for-the-badge"/>&nbsp;
     <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>&nbsp;
 </p>
 
@@ -45,10 +45,11 @@
 <p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge"/>&nbsp;
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB"/>&nbsp;
-  <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=white"/>&nbsp;
+<img alt='Babylon.js' src='https://img.shields.io/badge/Babylon.js-100000?style=for-the-badge&logo=Babylon.js&logoColor=FFFFFF&labelColor=BB464B&color=BB464B'/>
   <img src="https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>&nbsp;
   <img src="https://img.shields.io/badge/TanStack%20Query-000?style=for-the-badge&logo=reactquery&logoColor=FF4154"/>&nbsp;
+    <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB"/>&nbsp;
+  <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=white"/>&nbsp;
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>&nbsp;
 </p>
     

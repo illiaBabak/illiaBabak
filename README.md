@@ -1,125 +1,119 @@
-<!--
-  Profile README — Wide Skill Matrix & Neon Dark Aesthetic
-  Tip: replace contact links with yours
--->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&repeat=true&width=500&height=45&lines=Illia+Babak" alt="Name" />
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=2500&pause=800&color=6E7681&center=true&vCenter=true&repeat=true&width=600&height=25&lines=Full-Stack+%26+Mobile+Developer;React+%2F+Next.js+%2F+React+Native+%2F+Node.js" alt="Subtitle" />
+</div>
 
-<!-- Title / Hero -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=600&color=7DF9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=90&lines=Hi%2C+I'm+Illia+%F0%9F%91%8B;Full-stack+%26+Mobile+Developer" alt="Typing SVG" />
-</p>
-<h3 align="center">JS/TS · React/Next · Node/Express · RN/Expo · SQL/NoSQL · Testing/CI</h3>
+<br/>
 
-<!-- Thin divider -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,100:111827&height=2&section=header&reversal=true" width="100%" />
-</p>
+<div align="center">
 
----
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/illia-babak-4a8664289/)
+&nbsp;&nbsp;
+[![Gmail](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:illiababak776@gmail.com)
 
-## 🧠 Core Skills (Daily Driver)
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
-        <img src="https://img.shields.io/badge/React%20Query-0A0A0A?logo=reactquery&logoColor=FF4154&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/Next.js-0A0A0A?logo=nextdotjs&logoColor=white&style=for-the-badge"/>&nbsp;
-    <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Express-0A0A0A?logo=express&logoColor=white&style=for-the-badge"/>&nbsp;
-    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>&nbsp;
-</p>
+</div>
 
 ---
 
-## 🧩 Skill Matrix (Expanded)
+<table>
+<tr><td>
 
-### 🎨 Layout & Styling
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=less&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=fff"/>&nbsp;
-  <img src="https://img.shields.io/badge/React%20Bootstrap-0A0A0A?style=for-the-badge&logo=reactbootstrap&logoColor=41E0FD"/>
-</p>
+#### 🎨 Styling
 
-### ⚛️ Frontend
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge"/>&nbsp;
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>&nbsp;
-<img alt='Babylon.js' src='https://img.shields.io/badge/Babylon.js-100000?style=for-the-badge&logo=Babylon.js&logoColor=FFFFFF&labelColor=BB464B&color=BB464B'/>
-  <img src="https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/TanStack%20Query-000?style=for-the-badge&logo=reactquery&logoColor=FF4154"/>&nbsp;
-    <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB"/>&nbsp;
-  <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>&nbsp;
-</p>
-    
-### 🖥️ Backend
-<p>
-  <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E"/>&nbsp;
-  <img src="https://img.shields.io/badge/Express-0A0A0A?style=for-the-badge&logo=express&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>&nbsp;
-</p>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
+<img src="https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=less&logoColor=white"/>
 
-### 📱 Mobile
-<p>
-  <img src="https://img.shields.io/badge/React%20Native-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB"/>&nbsp;
-  <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white"/>
-</p>
+</td><td>
 
-### 🗄️ Databases
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/MongoDB-0A0A0A?style=for-the-badge&logo=mongodb&logoColor=47A248"/>&nbsp;
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
-</p>
+#### ⚛️ Frontend
 
-### 🧪 Testing
-<p>
-  <img src="https://img.shields.io/badge/Jest-0A0A0A?style=for-the-badge&logo=jest&logoColor=C21325"/>&nbsp;
-  <img src="https://img.shields.io/badge/Cypress-0A0A0A?style=for-the-badge&logo=cypress&logoColor=69D3A7"/>&nbsp;
-  <img src="https://img.shields.io/badge/React%20Testing%20Library-0A0A0A?style=for-the-badge&logo=testinglibrary&logoColor=E33332"/>
-</p>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000"/>
+<img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Babylon.js-BB464B?style=for-the-badge&logo=babylondotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
 
-### 🧰 Tooling & Code Quality
-<p>
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"/>&nbsp;
-  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=fff"/>
-</p>
+</td></tr>
+<tr><td>
 
+#### 📱 Mobile
 
-### 🧱 Formats & Docs
-<p>
-  <img src="https://img.shields.io/badge/Markdown-0A0A0A?style=for-the-badge&logo=markdown&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/JSON-0A0A0A?style=for-the-badge&logo=json&logoColor=white"/>
-</p>
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=000"/>
+<img src="https://img.shields.io/badge/Expo-000?style=for-the-badge&logo=expo&logoColor=white"/>
 
-### 🖥️ OS & Editors
-<p>
-  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000"/>&nbsp;
-  <img src="https://img.shields.io/badge/VS%20Code-0A0A0A?style=for-the-badge&logo=visualstudiocode&logoColor=22A6F2"/>
-</p>
+</td><td>
 
-<!-- Thin divider -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:0A0A0A&height=2&section=header&reversal=true" width="100%" />
-</p>
+#### 🖥️ Backend
 
-## 📊 Activity & Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=illiaBabak&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" height="152" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&theme=tokyonight&layout=compact&hide_border=true" height="152" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=illiaBabak&theme=tokyonight&hide_border=true" height="170" />
-</p>
+<img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white"/>
 
+</td></tr>
+<tr><td>
+
+#### 🗄️ Databases
+
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
+
+</td><td>
+
+#### 🧪 Testing
+
+<img src="https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=cypress&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"/>
+<img src="https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white"/>
+
+</td></tr>
+<tr><td colspan="2">
+
+#### 🛠️ DevOps & Tooling
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cursor-000?style=for-the-badge&logo=cursor&logoColor=white"/>
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prettier-F7BA3E?style=for-the-badge&logo=prettier&logoColor=000"/>
+<img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white"/>
+
+</td></tr>
+</table>
+
+---
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e&count_private=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&count_private=true" />
+    <img height="155" src="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e&count_private=true" />
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&layout=compact&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&layout=compact&hide_border=true" />
+    <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&layout=compact&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=8b949e&dates=6e7681" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true" />
+    <img src="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=8b949e&dates=6e7681" />
+  </picture>
+</div>

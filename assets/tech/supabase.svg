@@ -1,0 +1,25 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Supabase</title>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="3" x2="65" y2="69" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2230"/>
+      <stop offset="1" stop-color="#0B1017"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(36 3) rotate(90) scale(49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3FCF8E" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#3FCF8E" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10" y="-8" width="92" height="96" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#bg)"/>
+    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#glow)"/>
+    <rect x="1.5" y="1.5" width="69" height="69" rx="16.5" stroke="#A8B3C4" stroke-opacity=".17"/>
+    <path d="M19 1.5h34" stroke="#3FCF8E" stroke-opacity=".55" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(20 20) scale(1.333333)" color="#3FCF8E" fill="currentColor">
+    <path d="M11.9 1.036c-.015-.986-1.26-1.41-1.874-.637L.764 12.05C-.33 13.427.65 15.455 2.409 15.455h9.579l.113 7.51c.014.985 1.259 1.408 1.873.636l9.262-11.653c1.093-1.375.113-3.403-1.645-3.403h-9.642z"/>
+  </g>
+</svg>

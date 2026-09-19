@@ -1,0 +1,25 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Tailwind CSS</title>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="3" x2="65" y2="69" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2230"/>
+      <stop offset="1" stop-color="#0B1017"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(36 3) rotate(90) scale(49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10" y="-8" width="92" height="96" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#bg)"/>
+    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#glow)"/>
+    <rect x="1.5" y="1.5" width="69" height="69" rx="16.5" stroke="#A8B3C4" stroke-opacity=".17"/>
+    <path d="M19 1.5h34" stroke="#06B6D4" stroke-opacity=".55" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(20 20) scale(1.333333)" color="#06B6D4" fill="currentColor">
+    <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/>
+  </g>
+</svg>

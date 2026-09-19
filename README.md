@@ -1,120 +1,103 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&repeat=true&width=500&height=45&lines=Illia+Babak" alt="Name" />
-  <br/>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=2500&pause=800&color=6E7681&center=true&vCenter=true&repeat=true&width=600&height=25&lines=Full-Stack+%26+Mobile+Developer;React+%2F+Next.js+%2F+React+Native+%2F+Node.js" alt="Subtitle" />
-</div>
+
+<img src="./assets/hero.svg" width="100%" alt="Illia Babak — Full-Stack & Mobile Software Engineer" />
 
 <br/>
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/illia-babak-4a8664289/)
+<a href="https://www.linkedin.com/in/illia-babak-4a8664289/"><img src="./assets/contact-linkedin.svg" height="40" alt="LinkedIn" /></a>
 &nbsp;&nbsp;
-[![Gmail](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:illiababak776@gmail.com)
+<a href="mailto:illiababak776@gmail.com"><img src="./assets/contact-email.svg" height="40" alt="Email" /></a>
 
 </div>
 
----
+<br/>
 
-<table>
-<tr><td>
+## Tech Stack & Tools
 
-#### 🎨 Styling
+### Frontend
 
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
-<img src="https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=less&logoColor=white"/>
+<p align="center">
+  <img src="./assets/tech/typescript.svg" width="64" title="TypeScript" alt="TypeScript" />&nbsp;
+  <img src="./assets/tech/javascript.svg" width="64" title="JavaScript" alt="JavaScript" />&nbsp;
+  <img src="./assets/tech/react.svg" width="64" title="React" alt="React" />&nbsp;
+  <img src="./assets/tech/nextjs.svg" width="64" title="Next.js" alt="Next.js" />&nbsp;
+  <img src="./assets/tech/tailwind.svg" width="64" title="Tailwind CSS" alt="Tailwind CSS" />&nbsp;
+  <img src="./assets/tech/redux.svg" width="64" title="Redux Toolkit" alt="Redux Toolkit" />&nbsp;
+  <img src="./assets/tech/tanstack-query.svg" width="64" title="TanStack Query" alt="TanStack Query" />&nbsp;
+  <img src="./assets/tech/babylonjs.svg" width="64" title="Babylon.js" alt="Babylon.js" />
+</p>
 
-</td><td>
+### Backend
 
-#### ⚛️ Frontend
+<p align="center">
+  <img src="./assets/tech/php.svg" width="64" title="PHP" alt="PHP" />&nbsp;
+  <img src="./assets/tech/laravel.svg" width="64" title="Laravel" alt="Laravel" />&nbsp;
+  <img src="./assets/tech/nodejs.svg" width="64" title="Node.js" alt="Node.js" />&nbsp;
+  <img src="./assets/tech/express.svg" width="64" title="Express" alt="Express" />&nbsp;
+  <img src="./assets/tech/prisma.svg" width="64" title="Prisma" alt="Prisma" />
+</p>
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000"/>
-<img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
-<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Babylon.js-BB464B?style=for-the-badge&logo=babylondotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+### DevOps & Infrastructure
 
-</td></tr>
-<tr><td>
+<p align="center">
+  <img src="./assets/tech/docker.svg" width="64" title="Docker" alt="Docker" />&nbsp;
+  <img src="./assets/tech/kubernetes.svg" width="64" title="Kubernetes" alt="Kubernetes" />&nbsp;
+  <img src="./assets/tech/terraform.svg" width="64" title="Terraform" alt="Terraform" />&nbsp;
+  <img src="./assets/tech/aws.svg" width="64" title="AWS" alt="AWS" />&nbsp;
+  <img src="./assets/tech/nginx.svg" width="64" title="Nginx" alt="Nginx" />&nbsp;
+  <img src="./assets/tech/circleci.svg" width="64" title="CircleCI" alt="CircleCI" />&nbsp;
+  <img src="./assets/tech/linux.svg" width="64" title="Linux" alt="Linux" />
+</p>
 
-#### 📱 Mobile
+### Mobile
 
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=000"/>
-<img src="https://img.shields.io/badge/Expo-000?style=for-the-badge&logo=expo&logoColor=white"/>
+<p align="center">
+  <img src="./assets/tech/react-native.svg" width="64" title="React Native" alt="React Native" />&nbsp;
+  <img src="./assets/tech/expo.svg" width="64" title="Expo" alt="Expo" />
+</p>
 
-</td><td>
+### Databases
 
-#### 🖥️ Backend
+<p align="center">
+  <img src="./assets/tech/postgresql.svg" width="64" title="PostgreSQL" alt="PostgreSQL" />&nbsp;
+  <img src="./assets/tech/mysql.svg" width="64" title="MySQL" alt="MySQL" />&nbsp;
+  <img src="./assets/tech/mongodb.svg" width="64" title="MongoDB" alt="MongoDB" />&nbsp;
+  <img src="./assets/tech/redis.svg" width="64" title="Redis" alt="Redis" />&nbsp;
+  <img src="./assets/tech/supabase.svg" width="64" title="Supabase" alt="Supabase" />&nbsp;
+  <img src="./assets/tech/firebase.svg" width="64" title="Firebase" alt="Firebase" />
+</p>
 
-<img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white"/>
+### Testing
 
-</td></tr>
-<tr><td>
+<p align="center">
+  <img src="./assets/tech/cypress.svg" width="64" title="Cypress" alt="Cypress" />&nbsp;
+  <img src="./assets/tech/jest.svg" width="64" title="Jest" alt="Jest" />&nbsp;
+  <img src="./assets/tech/testing-library.svg" width="64" title="Testing Library" alt="Testing Library" />&nbsp;
+  <img src="./assets/tech/pest.svg" width="64" title="Pest" alt="Pest" />
+</p>
 
-#### 🗄️ Databases
+<br/>
 
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
-<img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white"/>
-
-</td><td>
-
-#### 🧪 Testing
-
-<img src="https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=cypress&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"/>
-<img src="https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pest-000000?style=for-the-badge&logo=pestphp&logoColor=white"/>
-
-</td></tr>
-<tr><td colspan="2">
-
-#### ⚙️ DevOps & Infrastructure
-
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000"/>
-<img src="https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
-
-</td></tr>
-</table>
-
----
+## GitHub Activity
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e&count_private=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&count_private=true" />
-    <img height="155" src="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e&count_private=true" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&layout=compact&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&layout=compact&hide_border=true" />
-    <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=illiaBabak&layout=compact&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e" />
-  </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&bg_color=00000000&title_color=E6EDF3&icon_color=60A5FA&text_color=8B949E&count_private=true&include_all_commits=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&title_color=1F2937&icon_color=2563EB&text_color=4B5563&count_private=true&include_all_commits=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=illiaBabak&show_icons=true&hide_border=true&bg_color=00000000&title_color=E6EDF3&icon_color=60A5FA&text_color=8B949E&count_private=true&include_all_commits=true" alt="GitHub statistics" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&background=00000000&ring=60A5FA&fire=A78BFA&currStreakLabel=E6EDF3&sideLabels=8B949E&currStreakNum=E6EDF3&sideNums=8B949E&dates=6E7681" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&ring=2563EB&fire=7C3AED&currStreakLabel=1F2937&sideLabels=4B5563&currStreakNum=1F2937&sideNums=4B5563" />
+  <img height="165" src="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&background=00000000&ring=60A5FA&fire=A78BFA&currStreakLabel=E6EDF3&sideLabels=8B949E&currStreakNum=E6EDF3&sideNums=8B949E&dates=6E7681" alt="GitHub streak" />
+</picture>
+
 </div>
 
 <br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=8b949e&dates=6e7681" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true" />
-    <img src="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=8b949e&dates=6e7681" />
-  </picture>
+  <sub>Web systems · Mobile products · Backend architecture · Cloud infrastructure</sub>
 </div>

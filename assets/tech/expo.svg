@@ -1,0 +1,25 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Expo</title>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="3" x2="65" y2="69" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2230"/>
+      <stop offset="1" stop-color="#0B1017"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(36 3) rotate(90) scale(49)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0F6FC" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#F0F6FC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10" y="-8" width="92" height="96" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#bg)"/>
+    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#glow)"/>
+    <rect x="1.5" y="1.5" width="69" height="69" rx="16.5" stroke="#A8B3C4" stroke-opacity=".17"/>
+    <path d="M19 1.5h34" stroke="#F0F6FC" stroke-opacity=".55" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(20 20) scale(1.333333)" color="#F0F6FC" fill="currentColor">
+    <path d="M0 20.084c.043.53.23 1.063.718 1.778.58.849 1.576 1.315 2.303.567.49-.505 5.794-9.776 8.35-13.29a.761.761 0 011.248 0c2.556 3.514 7.86 12.785 8.35 13.29.727.748 1.723.282 2.303-.567.57-.835.728-1.42.728-2.046 0-.426-8.26-15.798-9.092-17.078-.8-1.23-1.044-1.498-2.397-1.542h-1.032c-1.353.044-1.597.311-2.398 1.542C8.267 3.991.33 18.758 0 19.77Z"/>
+  </g>
+</svg>

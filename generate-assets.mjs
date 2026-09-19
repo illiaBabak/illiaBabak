@@ -4,12 +4,13 @@ import { fileURLToPath } from "node:url";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const techDir = path.join(root, "assets", "tech");
+const iconDir = path.join(root, "assets", "icons");
 
 const technologies = [
   { file: "javascript", name: "JavaScript", slug: "javascript", color: "F7DF1E" },
   { file: "typescript", name: "TypeScript", slug: "typescript", color: "3178C6" },
   { file: "react", name: "React", slug: "react", color: "61DAFB" },
-  { file: "nextjs", name: "Next.js", slug: "nextdotjs", color: "F0F6FC" },
+  { file: "nextjs", name: "Next.js", slug: "nextdotjs", color: "8B949E" },
   { file: "tailwind", name: "Tailwind CSS", slug: "tailwindcss", color: "06B6D4" },
   { file: "redux", name: "Redux Toolkit", slug: "redux", color: "764ABC" },
   { file: "tanstack-query", name: "TanStack Query", slug: "reactquery", color: "FF4154" },
@@ -17,17 +18,17 @@ const technologies = [
   { file: "php", name: "PHP", slug: "php", color: "8892BF" },
   { file: "laravel", name: "Laravel", slug: "laravel", color: "FF2D20" },
   { file: "nodejs", name: "Node.js", slug: "nodedotjs", color: "5FA04E" },
-  { file: "express", name: "Express", slug: "express", color: "F0F6FC" },
-  { file: "prisma", name: "Prisma", slug: "prisma", color: "D8E2EF" },
+  { file: "express", name: "Express", slug: "express", color: "8B949E" },
+  { file: "prisma", name: "Prisma", slug: "prisma", color: "6E7FDB" },
   { file: "docker", name: "Docker", slug: "docker", color: "2496ED" },
   { file: "kubernetes", name: "Kubernetes", slug: "kubernetes", color: "326CE5" },
   { file: "terraform", name: "Terraform", slug: "terraform", color: "844FBA" },
   { file: "aws", name: "AWS", custom: "aws", color: "FF9900" },
   { file: "nginx", name: "Nginx", slug: "nginx", color: "009639" },
-  { file: "circleci", name: "CircleCI", slug: "circleci", color: "F0F6FC" },
+  { file: "circleci", name: "CircleCI", slug: "circleci", color: "8B949E" },
   { file: "linux", name: "Linux", slug: "linux", color: "FCC624" },
   { file: "react-native", name: "React Native", slug: "react", color: "61DAFB" },
-  { file: "expo", name: "Expo", slug: "expo", color: "F0F6FC" },
+  { file: "expo", name: "Expo", slug: "expo", color: "8B949E" },
   { file: "postgresql", name: "PostgreSQL", slug: "postgresql", color: "4169E1" },
   { file: "mysql", name: "MySQL", slug: "mysql", color: "4479A1" },
   { file: "mongodb", name: "MongoDB", slug: "mongodb", color: "47A248" },
@@ -37,7 +38,7 @@ const technologies = [
   { file: "cypress", name: "Cypress", slug: "cypress", color: "69D3A7" },
   { file: "jest", name: "Jest", slug: "jest", color: "C21325" },
   { file: "testing-library", name: "Testing Library", slug: "testinglibrary", color: "E33332" },
-  { file: "pest", name: "Pest", custom: "pest", color: "F0F6FC" },
+  { file: "pest", name: "Pest", custom: "pest", color: "8B949E" },
 ];
 
 const customMarks = {
@@ -100,6 +101,15 @@ function tileSvg({ name, color, mark }) {
   </g>
 </svg>
 `;
+}
+
+function bareIconSvg({ name, color, mark }) {
+  return `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">${name}</title>
+  <g transform="translate(8 8) scale(1.333333)" color="#${color}" fill="currentColor">
+    ${mark}
+  </g>
+</svg>\n`;
 }
 
 function miniTile(technology, x, y, size = 58) {
@@ -247,6 +257,74 @@ function heroSvg() {
 `;
 }
 
+function neonTile(technology, x, y) {
+  return `<g>
+    <title>${technology.name}</title>
+    <rect x="${x + 10}" y="${y + 10}" width="52" height="52" rx="15" fill="#${technology.color}" fill-opacity=".22" filter="url(#softGlow)"/>
+    <rect class="tile-bg" x="${x + 6}" y="${y + 6}" width="60" height="60" rx="15" stroke="#${technology.color}" stroke-opacity=".42"/>
+    <rect x="${x + 6.5}" y="${y + 6.5}" width="59" height="59" rx="14.5" fill="#${technology.color}" fill-opacity=".055" stroke="#F0F6FC" stroke-opacity=".07"/>
+    <path d="M${x + 22} ${y + 6.5}h28" stroke="#${technology.color}" stroke-opacity=".8" stroke-linecap="round"/>
+    <g transform="translate(${x + 20} ${y + 20}) scale(1.333333)" color="#${technology.color}" fill="currentColor">
+      ${technology.mark}
+    </g>
+  </g>`;
+}
+
+function techStackSvg(technologyMap) {
+  const groups = [
+    { label: "Frontend", x: 25, y: 0, width: 900, items: ["typescript", "javascript", "react", "nextjs", "tailwind", "redux", "tanstack-query", "babylonjs"], gap: 10 },
+    { label: "Backend", x: 25, y: 150, width: 560, items: ["php", "laravel", "nodejs", "express", "prisma"], gap: 10 },
+    { label: "Mobile", x: 620, y: 150, width: 305, items: ["react-native", "expo"], gap: 14 },
+    { label: "DevOps & Infrastructure", x: 25, y: 300, width: 900, items: ["docker", "kubernetes", "terraform", "aws", "nginx", "circleci", "linux"], gap: 12 },
+    { label: "Databases", x: 25, y: 450, width: 560, items: ["postgresql", "mysql", "mongodb", "redis", "supabase", "firebase"], gap: 8 },
+    { label: "Testing", x: 620, y: 450, width: 305, items: ["cypress", "jest", "testing-library", "pest"], gap: 6 },
+  ];
+
+  const markup = groups.map((group) => {
+    const rowWidth = group.items.length * 72 + (group.items.length - 1) * group.gap;
+    let x = group.x + (group.width - rowWidth) / 2;
+    const tiles = group.items.map((file) => {
+      const result = neonTile(technologyMap.get(file), Math.round(x), group.y + 48);
+      x += 72 + group.gap;
+      return result;
+    }).join("\n");
+    const safeLabel = group.label.replaceAll("&", "&amp;");
+    return `<g>
+      <text class="section-title" x="${group.x}" y="${group.y + 22}" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="650">${safeLabel}</text>
+      <line class="section-line" x1="${group.x}" y1="${group.y + 37}" x2="${group.x + group.width}" y2="${group.y + 37}"/>
+      ${tiles}
+    </g>`;
+  }).join("\n");
+
+  return `<svg width="950" height="585" viewBox="0 0 950 585" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+    <title id="title">Tech Stack and Tools</title>
+    <desc id="desc">Frontend, backend, mobile, infrastructure, database and testing technologies</desc>
+    <style>
+      .section-title { fill: #CDD9E5; }
+      .section-line { stroke: #444C56; stroke-opacity: .72; }
+      .tile-bg { fill: #161C24; }
+      @media (prefers-color-scheme: light) {
+        .section-title { fill: #24292F; }
+        .section-line { stroke: #D0D7DE; }
+        .tile-bg { fill: #F6F8FA; }
+      }
+    </style>
+    <defs>
+      <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="3.5"/>
+      </filter>
+    </defs>
+    ${markup}
+  </svg>\n`;
+}
+
+function accentLineSvg() {
+  return `<svg width="280" height="2" viewBox="0 0 280 2" xmlns="http://www.w3.org/2000/svg">
+    <defs><linearGradient id="accent" x1="0" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset=".52" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+    <rect width="280" height="2" rx="1" fill="url(#accent)"/>
+  </svg>\n`;
+}
+
 function contactSvg(label, color, iconMark) {
   const width = label === "LinkedIn" ? 150 : 126;
   return `<svg width="${width}" height="40" viewBox="0 0 ${width} 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${label}">
@@ -263,6 +341,7 @@ function contactSvg(label, color, iconMark) {
 }
 
 await mkdir(techDir, { recursive: true });
+await mkdir(iconDir, { recursive: true });
 
 const renderedTechnologies = new Map();
 for (const technology of technologies) {
@@ -271,16 +350,21 @@ for (const technology of technologies) {
     : await fetchMark(technology.slug);
   renderedTechnologies.set(technology.file, { ...technology, mark });
   await writeFile(
-    path.join(techDir, `${technology.file}.svg`),
-    tileSvg({ ...technology, mark }),
+    path.join(iconDir, `${technology.file}.svg`),
+    bareIconSvg({ ...technology, mark }),
     "utf8",
   );
 }
 
 await writeFile(
-  path.join(root, "assets", "stack-board.svg"),
-  stackBoardSvg(renderedTechnologies),
+  path.join(root, "assets", "tech-stack.svg"),
+  techStackSvg(renderedTechnologies),
+  "utf8",
+);
+await writeFile(
+  path.join(root, "assets", "accent-line.svg"),
+  accentLineSvg(),
   "utf8",
 );
 
-console.log(`Generated ${technologies.length + 1} SVG assets.`);
+console.log(`Generated ${technologies.length + 2} SVG assets.`);

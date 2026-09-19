@@ -2,11 +2,20 @@
 
 <h1>Illia Babak</h1>
 
+<img src="./assets/accent-line.svg" width="280" height="2" alt="" />
+
 <h3>Full-Stack Developer</h3>
 
-<p>Next.js &nbsp;·&nbsp; Laravel &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Cloud Infrastructure</p>
+<samp>Next.js &nbsp;·&nbsp; Laravel &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Cloud Infrastructure</samp>
 
-<br/>
+<br/><br/>
+
+<sub>
+I'm a full-stack developer based in Poland, passionate about thoughtful digital products<br/>
+and deeply curious about how software systems work under the hood.
+</sub>
+
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/illia-babak-4a8664289/">LinkedIn</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -19,7 +28,7 @@
 ## Tech Stack & Tools
 
 <div align="center">
-  <img src="./assets/stack-board.svg" width="100%" alt="Frontend, backend, DevOps, mobile, databases and testing stack" />
+  <img src="./assets/tech-stack.svg" width="100%" alt="Frontend, backend, mobile, infrastructure, databases and testing tools" />
 </div>
 
 <br/>

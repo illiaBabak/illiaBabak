@@ -1,12 +1,16 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Illia Babak — Full-Stack & Mobile Software Engineer" />
+<h1>Illia Babak</h1>
+
+<h3>Full-Stack Developer</h3>
+
+<p>Next.js &nbsp;·&nbsp; Laravel &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Cloud Infrastructure</p>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/illia-babak-4a8664289/"><img src="./assets/contact-linkedin.svg" height="40" alt="LinkedIn" /></a>
-&nbsp;&nbsp;
-<a href="mailto:illiababak776@gmail.com"><img src="./assets/contact-email.svg" height="40" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/illia-babak-4a8664289/">LinkedIn</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:illiababak776@gmail.com">Email</a>
 
 </div>
 
@@ -14,67 +18,9 @@
 
 ## Tech Stack & Tools
 
-### Frontend
-
-<p align="center">
-  <img src="./assets/tech/typescript.svg" width="64" title="TypeScript" alt="TypeScript" />&nbsp;
-  <img src="./assets/tech/javascript.svg" width="64" title="JavaScript" alt="JavaScript" />&nbsp;
-  <img src="./assets/tech/react.svg" width="64" title="React" alt="React" />&nbsp;
-  <img src="./assets/tech/nextjs.svg" width="64" title="Next.js" alt="Next.js" />&nbsp;
-  <img src="./assets/tech/tailwind.svg" width="64" title="Tailwind CSS" alt="Tailwind CSS" />&nbsp;
-  <img src="./assets/tech/redux.svg" width="64" title="Redux Toolkit" alt="Redux Toolkit" />&nbsp;
-  <img src="./assets/tech/tanstack-query.svg" width="64" title="TanStack Query" alt="TanStack Query" />&nbsp;
-  <img src="./assets/tech/babylonjs.svg" width="64" title="Babylon.js" alt="Babylon.js" />
-</p>
-
-### Backend
-
-<p align="center">
-  <img src="./assets/tech/php.svg" width="64" title="PHP" alt="PHP" />&nbsp;
-  <img src="./assets/tech/laravel.svg" width="64" title="Laravel" alt="Laravel" />&nbsp;
-  <img src="./assets/tech/nodejs.svg" width="64" title="Node.js" alt="Node.js" />&nbsp;
-  <img src="./assets/tech/express.svg" width="64" title="Express" alt="Express" />&nbsp;
-  <img src="./assets/tech/prisma.svg" width="64" title="Prisma" alt="Prisma" />
-</p>
-
-### DevOps & Infrastructure
-
-<p align="center">
-  <img src="./assets/tech/docker.svg" width="64" title="Docker" alt="Docker" />&nbsp;
-  <img src="./assets/tech/kubernetes.svg" width="64" title="Kubernetes" alt="Kubernetes" />&nbsp;
-  <img src="./assets/tech/terraform.svg" width="64" title="Terraform" alt="Terraform" />&nbsp;
-  <img src="./assets/tech/aws.svg" width="64" title="AWS" alt="AWS" />&nbsp;
-  <img src="./assets/tech/nginx.svg" width="64" title="Nginx" alt="Nginx" />&nbsp;
-  <img src="./assets/tech/circleci.svg" width="64" title="CircleCI" alt="CircleCI" />&nbsp;
-  <img src="./assets/tech/linux.svg" width="64" title="Linux" alt="Linux" />
-</p>
-
-### Mobile
-
-<p align="center">
-  <img src="./assets/tech/react-native.svg" width="64" title="React Native" alt="React Native" />&nbsp;
-  <img src="./assets/tech/expo.svg" width="64" title="Expo" alt="Expo" />
-</p>
-
-### Databases
-
-<p align="center">
-  <img src="./assets/tech/postgresql.svg" width="64" title="PostgreSQL" alt="PostgreSQL" />&nbsp;
-  <img src="./assets/tech/mysql.svg" width="64" title="MySQL" alt="MySQL" />&nbsp;
-  <img src="./assets/tech/mongodb.svg" width="64" title="MongoDB" alt="MongoDB" />&nbsp;
-  <img src="./assets/tech/redis.svg" width="64" title="Redis" alt="Redis" />&nbsp;
-  <img src="./assets/tech/supabase.svg" width="64" title="Supabase" alt="Supabase" />&nbsp;
-  <img src="./assets/tech/firebase.svg" width="64" title="Firebase" alt="Firebase" />
-</p>
-
-### Testing
-
-<p align="center">
-  <img src="./assets/tech/cypress.svg" width="64" title="Cypress" alt="Cypress" />&nbsp;
-  <img src="./assets/tech/jest.svg" width="64" title="Jest" alt="Jest" />&nbsp;
-  <img src="./assets/tech/testing-library.svg" width="64" title="Testing Library" alt="Testing Library" />&nbsp;
-  <img src="./assets/tech/pest.svg" width="64" title="Pest" alt="Pest" />
-</p>
+<div align="center">
+  <img src="./assets/stack-board.svg" width="100%" alt="Frontend, backend, DevOps, mobile, databases and testing stack" />
+</div>
 
 <br/>
 

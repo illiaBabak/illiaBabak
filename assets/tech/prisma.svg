@@ -9,15 +9,15 @@
       <stop stop-color="#D8E2EF" stop-opacity=".24"/>
       <stop offset="1" stop-color="#D8E2EF" stop-opacity="0"/>
     </radialGradient>
-    <filter id="shadow" x="-10" y="-8" width="92" height="96" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#000" flood-opacity=".34"/>
+    <filter id="shadow" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity=".42"/>
     </filter>
   </defs>
   <g filter="url(#shadow)">
-    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#bg)"/>
-    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#glow)"/>
-    <rect x="1.5" y="1.5" width="69" height="69" rx="16.5" stroke="#A8B3C4" stroke-opacity=".17"/>
-    <path d="M19 1.5h34" stroke="#D8E2EF" stroke-opacity=".55" stroke-linecap="round"/>
+    <rect x="5" y="4" width="62" height="62" rx="15" fill="url(#bg)"/>
+    <rect x="5" y="4" width="62" height="62" rx="15" fill="url(#glow)"/>
+    <rect x="5.5" y="4.5" width="61" height="61" rx="14.5" stroke="#A8B3C4" stroke-opacity=".17"/>
+    <path d="M21 4.5h30" stroke="#D8E2EF" stroke-opacity=".55" stroke-linecap="round"/>
   </g>
   <g transform="translate(20 20) scale(1.333333)" color="#D8E2EF" fill="currentColor">
     <path d="M21.8068 18.2848L13.5528.7565c-.207-.4382-.639-.7273-1.1286-.7541-.5023-.0293-.9523.213-1.2062.6253L2.266 15.1271c-.2773.4518-.2718 1.0091.0158 1.4555l4.3759 6.7786c.2608.4046.7127.6388 1.1823.6388.1332 0 .267-.0188.3987-.0577l12.7019-3.7568c.3891-.1151.7072-.3904.8737-.7553s.1633-.7828-.0075-1.1454zm-1.8481.7519L9.1814 22.2242c-.3292.0975-.6448-.1873-.5756-.5194l3.8501-18.4386c.072-.3448.5486-.3996.699-.0803l7.1288 15.138c.1344.2856-.019.6224-.325.7128z"/>

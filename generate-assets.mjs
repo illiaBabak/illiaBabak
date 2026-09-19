@@ -85,21 +85,116 @@ function tileSvg({ name, color, mark }) {
       <stop stop-color="#${color}" stop-opacity=".24"/>
       <stop offset="1" stop-color="#${color}" stop-opacity="0"/>
     </radialGradient>
-    <filter id="shadow" x="-10" y="-8" width="92" height="96" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#000" flood-opacity=".34"/>
+    <filter id="shadow" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity=".42"/>
     </filter>
   </defs>
   <g filter="url(#shadow)">
-    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#bg)"/>
-    <rect x="1" y="1" width="70" height="70" rx="17" fill="url(#glow)"/>
-    <rect x="1.5" y="1.5" width="69" height="69" rx="16.5" stroke="#A8B3C4" stroke-opacity=".17"/>
-    <path d="M19 1.5h34" stroke="#${color}" stroke-opacity=".55" stroke-linecap="round"/>
+    <rect x="5" y="4" width="62" height="62" rx="15" fill="url(#bg)"/>
+    <rect x="5" y="4" width="62" height="62" rx="15" fill="url(#glow)"/>
+    <rect x="5.5" y="4.5" width="61" height="61" rx="14.5" stroke="#A8B3C4" stroke-opacity=".17"/>
+    <path d="M21 4.5h30" stroke="#${color}" stroke-opacity=".55" stroke-linecap="round"/>
   </g>
   <g transform="translate(20 20) scale(1.333333)" color="#${color}" fill="currentColor">
     ${mark}
   </g>
 </svg>
 `;
+}
+
+function miniTile(technology, x, y, size = 58) {
+  const logoSize = 28;
+  const scale = logoSize / 24;
+  const offset = (size - logoSize) / 2;
+  return `<g>
+    <title>${technology.name}</title>
+    <rect x="${x}" y="${y}" width="${size}" height="${size}" rx="14" fill="#151D28" stroke="#9FB0C5" stroke-opacity=".16"/>
+    <rect x="${x + 1}" y="${y + 1}" width="${size - 2}" height="${size - 2}" rx="13" fill="#${technology.color}" fill-opacity=".035"/>
+    <path d="M${x + 18} ${y + 1}h${size - 36}" stroke="#${technology.color}" stroke-opacity=".7" stroke-linecap="round"/>
+    <g transform="translate(${x + offset} ${y + offset}) scale(${scale})" color="#${technology.color}" fill="currentColor">
+      ${technology.mark}
+    </g>
+  </g>`;
+}
+
+function stackBoardSvg(technologyMap) {
+  const escapeXml = (value) => value.replaceAll("&", "&amp;");
+  const cards = [
+    {
+      x: 12, y: 12, width: 572, height: 220,
+      title: "Frontend", subtitle: "Interfaces, state & interaction", accent: "22D3EE",
+      items: ["typescript", "javascript", "react", "nextjs", "tailwind", "redux", "tanstack-query", "babylonjs"],
+      columns: 4, size: 58, gapX: 22, gapY: 18,
+    },
+    {
+      x: 600, y: 12, width: 388, height: 220,
+      title: "Backend", subtitle: "APIs, services & data access", accent: "A78BFA",
+      items: ["php", "laravel", "nodejs", "express", "prisma"],
+      columns: 3, size: 58, gapX: 22, gapY: 18,
+    },
+    {
+      x: 12, y: 248, width: 976, height: 190,
+      title: "DevOps & Infrastructure", subtitle: "Build, deploy, scale & operate", accent: "60A5FA",
+      items: ["docker", "kubernetes", "terraform", "aws", "nginx", "circleci", "linux"],
+      columns: 7, size: 62, gapX: 31, gapY: 0,
+    },
+    {
+      x: 12, y: 454, width: 236, height: 224,
+      title: "Mobile", subtitle: "Native experiences", accent: "38BDF8",
+      items: ["react-native", "expo"],
+      columns: 2, size: 62, gapX: 22, gapY: 0,
+    },
+    {
+      x: 264, y: 454, width: 470, height: 224,
+      title: "Databases", subtitle: "Relational, document & cache", accent: "34D399",
+      items: ["postgresql", "mysql", "mongodb", "redis", "supabase", "firebase"],
+      columns: 3, size: 58, gapX: 24, gapY: 18,
+    },
+    {
+      x: 750, y: 454, width: 238, height: 224,
+      title: "Testing", subtitle: "Confidence by default", accent: "FB7185",
+      items: ["cypress", "jest", "testing-library", "pest"],
+      columns: 2, size: 58, gapX: 22, gapY: 18,
+    },
+  ];
+
+  const cardMarkup = cards.map((card) => {
+    const rows = Math.ceil(card.items.length / card.columns);
+    const rowWidths = Array.from({ length: rows }, (_, row) => {
+      const count = Math.min(card.columns, card.items.length - row * card.columns);
+      return count * card.size + Math.max(0, count - 1) * card.gapX;
+    });
+    const gridTop = card.y + 82;
+    const icons = card.items.map((file, index) => {
+      const row = Math.floor(index / card.columns);
+      const column = index % card.columns;
+      const rowStart = card.x + (card.width - rowWidths[row]) / 2;
+      const x = rowStart + column * (card.size + card.gapX);
+      const y = gridTop + row * (card.size + card.gapY);
+      return miniTile(technologyMap.get(file), x, y, card.size);
+    }).join("\n");
+
+    return `<g>
+      <rect x="${card.x}" y="${card.y}" width="${card.width}" height="${card.height}" rx="24" fill="url(#cardBg)" stroke="#A7B4C6" stroke-opacity=".16"/>
+      <rect x="${card.x + 1}" y="${card.y + 1}" width="${card.width - 2}" height="${card.height - 2}" rx="23" fill="#${card.accent}" fill-opacity=".025"/>
+      <path d="M${card.x + 24} ${card.y + 1}h${Math.min(92, card.width - 48)}" stroke="#${card.accent}" stroke-width="2" stroke-linecap="round"/>
+      <text x="${card.x + 24}" y="${card.y + 35}" fill="#E6EDF3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700">${escapeXml(card.title)}</text>
+      <text x="${card.x + 24}" y="${card.y + 57}" fill="#7D8999" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12">${escapeXml(card.subtitle)}</text>
+      ${icons}
+    </g>`;
+  }).join("\n");
+
+  return `<svg width="1000" height="690" viewBox="0 0 1000 690" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+    <title id="title">Tech Stack and Tools</title>
+    <desc id="desc">Bento grid of frontend, backend, infrastructure, mobile, database and testing technologies</desc>
+    <defs>
+      <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#141C27"/>
+        <stop offset="1" stop-color="#0B1118"/>
+      </linearGradient>
+    </defs>
+    ${cardMarkup}
+  </svg>\n`;
 }
 
 function heroSvg() {
@@ -169,10 +264,12 @@ function contactSvg(label, color, iconMark) {
 
 await mkdir(techDir, { recursive: true });
 
+const renderedTechnologies = new Map();
 for (const technology of technologies) {
   const mark = technology.custom
     ? customMarks[technology.custom]
     : await fetchMark(technology.slug);
+  renderedTechnologies.set(technology.file, { ...technology, mark });
   await writeFile(
     path.join(techDir, `${technology.file}.svg`),
     tileSvg({ ...technology, mark }),
@@ -180,16 +277,10 @@ for (const technology of technologies) {
   );
 }
 
-await writeFile(path.join(root, "assets", "hero.svg"), heroSvg(), "utf8");
 await writeFile(
-  path.join(root, "assets", "contact-linkedin.svg"),
-  contactSvg("LinkedIn", "4DA3FF", customMarks.linkedin),
-  "utf8",
-);
-await writeFile(
-  path.join(root, "assets", "contact-email.svg"),
-  contactSvg("Email", "FF6B5F", customMarks.gmail),
+  path.join(root, "assets", "stack-board.svg"),
+  stackBoardSvg(renderedTechnologies),
   "utf8",
 );
 
-console.log(`Generated ${technologies.length + 3} SVG assets.`);
+console.log(`Generated ${technologies.length + 1} SVG assets.`);

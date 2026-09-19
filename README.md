@@ -2,18 +2,15 @@
 
 <h1>Illia Babak</h1>
 
-<img src="./assets/accent-line.svg" width="280" height="2" alt="" />
-
 <h3>Full-Stack Developer</h3>
 
 <samp>Next.js &nbsp;·&nbsp; Laravel &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Cloud Infrastructure</samp>
 
-<br/><br/>
-
-<sub>
+<p>
 I'm a full-stack developer based in Poland, passionate about thoughtful digital products<br/>
 and deeply curious about how software systems work under the hood.
-</sub>
+</p>
+<img src="./assets/accent-line.svg" width="280" height="2" alt="" />
 
 <br/><br/>
 
@@ -43,10 +40,4 @@ and deeply curious about how software systems work under the hood.
   <img height="165" src="https://streak-stats.demolab.com?user=illiaBabak&hide_border=true&background=00000000&ring=60A5FA&fire=A78BFA&currStreakLabel=E6EDF3&sideLabels=8B949E&currStreakNum=E6EDF3&sideNums=8B949E&dates=6E7681" alt="GitHub streak" />
 </picture>
 
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>Web systems · Mobile products · Backend architecture · Cloud infrastructure</sub>
 </div>

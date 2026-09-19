@@ -17,13 +17,7 @@ and deeply curious about how software systems work under the hood.
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/illia-babak-4a8664289/">LinkedIn</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="mailto:illiababak776@gmail.com">Email</a>
-
 </div>
-
-<br/>
 
 ## Tech Stack & Tools
 

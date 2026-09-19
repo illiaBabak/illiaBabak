@@ -6,15 +6,11 @@
 
 <p>Next.js &nbsp;·&nbsp; Laravel &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Cloud Infrastructure</p>
 
-<br/>
-
 <a href="https://www.linkedin.com/in/illia-babak-4a8664289/">LinkedIn</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="mailto:illiababak776@gmail.com">Email</a>
 
 </div>
-
-<br/>
 
 ## Tech Stack & Tools
 
